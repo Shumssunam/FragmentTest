@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FragmentTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="home_resource">Home</string>
+    <string name="categories_fragment">Categories Fragment</string>
+    <string name="categories">Categories</string>
+    <string name="show_all">Show all</string>
+    <string name="todo">TODO</string>
+    <string name="order">Order</string>
+    <string name="products">Products</string>
+    <string name="hot_deals">Hot Deals</string>
+    <string name="mega_deals">Mega Deals</string>
+    <string name="top_products">Top Products</string>
+    <string name="title">Title</string>
+    <string name="total_proce">Total Proce</string>
+    <string name="_1">1</string>
+    <string name="checkout">Checkout</string>
+    <string name="product_details">Product Details</string>
+    <string name="offer_price">Offer Price</string>
+    <string name="price_option">Price Option</string>
+    <string name="available">Available</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="sku">SKU</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="my_cart">My Cart</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="registration">Registration</string>
+    <string name="checkout_information">Checkout Information</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="message">Message</string>
+    <string name="payment_options">Payment Options</string>
+    <string name="place_order">Place Order</string>
+    <string name="category">Category</string>
+    <string name="splash_activity">splash_activity</string>
+    <string name="price">Price</string>
+    <string name="bdt_100">BDT 100</string>
+    <string name="bdt_500">BDT 500</string>
+    <string name="best_products">Best Products</string>
+
+
+</resources>
