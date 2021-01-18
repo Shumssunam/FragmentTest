@@ -24,10 +24,7 @@
             android:id="@+id/nav_wishlist1"
             android:icon="@drawable/filled_favorite"
             android:title="Wishlist" />
-        <item
-            android:id="@+id/nav_blog"
-            android:icon="@drawable/blog"
-            android:title="Blog" />
+
         <item
             android:id="@+id/nav_contact"
             android:icon="@drawable/phone"

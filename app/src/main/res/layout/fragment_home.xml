@@ -77,10 +77,11 @@
 
                     <ImageView
                         android:id="@+id/ivPic"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
                         android:clickable="true"
                         android:contentDescription="@string/todo"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:src="@drawable/outline_text_snippet" />
 
@@ -110,9 +111,10 @@
 
                     <ImageView
                         android:id="@+id/ivPic2"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:contentDescription="@string/todo"
                         android:focusable="true"
                         android:src="@drawable/outline_category" />

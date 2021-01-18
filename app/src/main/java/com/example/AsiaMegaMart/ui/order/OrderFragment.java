@@ -15,22 +15,25 @@ import com.example.AsiaMegaMart.R;
 import com.reginald.editspinner.EditSpinner;
 
 public class OrderFragment extends Fragment {
-    private OrderViewModel orderViewModel;
+    //private OrderViewModel orderViewModel;
     private View rootView;
-    private EditSpinner spinner;
+    //private EditSpinner spinner;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_order, container, false);
-        orderViewModel = ViewModelProviders.of(this).get(OrderViewModel.class);
+        /*orderViewModel = ViewModelProviders.of(this).get(OrderViewModel.class);*/
 
-        spinner = rootView.findViewById(R.id.checkout_spinner);
+      /*  spinner = rootView.findViewById(R.id.checkout_spinner);
 
         String[] arrayList = {"Cash On Delivery", "Online Payment"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, arrayList);
         spinner.setEditable(false);
         spinner.setAdapter(adapter);
+
+    }*/
+
         return rootView;
     }
 }
