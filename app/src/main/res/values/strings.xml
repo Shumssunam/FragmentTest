@@ -47,6 +47,9 @@
     <string name="bdt_100">BDT 100</string>
     <string name="bdt_500">BDT 500</string>
     <string name="best_products">Best Products</string>
+    <string name="total_৳">Total: ৳</string>
+    <string name="_0">0</string>
+    <string name="checkout_all">Checkout All</string>
 
 
 </resources>

@@ -41,7 +41,7 @@
                     android:layout_weight="0.25"
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="end"
-                    android:text="Total: ৳"
+                    android:text="@string/total_৳"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_12sdp" />
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.25"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textColor="@color/red"
                     android:textSize="@dimen/_12sdp" />
 
@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.45"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Checkout All"
+                    android:text="@string/checkout_all"
                     android:textAllCaps="false" />
             </LinearLayout>
 

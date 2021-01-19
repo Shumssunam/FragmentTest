@@ -13,11 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FragmentTest">
-        <activity android:name="com.example.AsiaMegaMart.MainActivity">
+        <activity android:name="com.example.AsiaMegaMart.MainActivity"
+            android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name="com.example.AsiaMegaMart.SplashActivity">
+        <activity android:name="com.example.AsiaMegaMart.SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
