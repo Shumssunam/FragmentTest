@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     app:layout_anchor="@+id/constraintLayout"
     app:layout_anchorGravity="center"
+    android:background="@color/blue_100"
     tools:context=".SplashActivity">
 
 

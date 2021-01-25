@@ -1,4 +1,4 @@
-package com.example.AsiaMegaMart;
+package com.example.AsiaMegaMart.utils;
 
 public class ConstantResources
 {

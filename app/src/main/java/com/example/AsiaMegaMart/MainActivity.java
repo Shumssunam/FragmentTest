@@ -15,8 +15,6 @@ import android.view.Menu;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.example.AsiaMegaMart.ui.CategoriesFragment;
@@ -28,6 +26,7 @@ import com.example.AsiaMegaMart.ui.contactus.ContactUsFragment;
 import com.example.AsiaMegaMart.ui.home.HomeFragment;
 import com.example.AsiaMegaMart.ui.order.OrderFragment;
 import com.example.AsiaMegaMart.ui.wishlist.WishListFragment;
+import com.example.AsiaMegaMart.utils.ConstantResources;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawerLayout;
     private Toolbar toolbar;
     private SearchView searchView;
-    //private BottomNavigationView bottomNav;
     private NavigationView navigationView;
 
 
@@ -186,6 +184,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_contact:
                 selectedFragment = new ContactUsFragment();
+                toolbar.setTitle("Contact Us");
                 break;
             case R.id.nav_conditions:
                 selectedFragment = new ConditionsAndTermsFragment();

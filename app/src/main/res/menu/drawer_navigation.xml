@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
@@ -33,6 +34,7 @@
             android:id="@+id/nav_conditions"
             android:icon="@drawable/terms_conditions"
             android:title="Terms Conditions" />
+
     </group>
     <item android:title="Communicate">
 
@@ -42,11 +44,10 @@
                 android:id="@+id/share"
                 android:icon="@drawable/share"
                 android:title="Share" />
-
-
         </menu>
 
 
     </item>
+
 
 </menu>

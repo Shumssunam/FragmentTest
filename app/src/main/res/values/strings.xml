@@ -47,9 +47,17 @@
     <string name="bdt_100">BDT 100</string>
     <string name="bdt_500">BDT 500</string>
     <string name="best_products">Best Products</string>
-    <string name="total_৳">Total: ৳</string>
+    <string name="total">Total: ৳</string>
+    <string name="bdt">৳</string>
     <string name="_0">0</string>
     <string name="checkout_all">Checkout All</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="welcome_to_asia_mega_mart">Welcome To Asia Mega Mart</string>
+    <string name="username">Username</string>
+    <string name="wish_list">Wish List</string>
+    <string name="sing_out">Sing Out</string>
 
 
 </resources>
